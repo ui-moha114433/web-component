@@ -1,0 +1,17 @@
+/* This is for testing - different view ports */
+
+.default {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .default {
+    border: 1px solid red;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .default {
+    border: 1px solid green;
+  }
+}
